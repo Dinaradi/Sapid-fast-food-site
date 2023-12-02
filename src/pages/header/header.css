@@ -1,0 +1,94 @@
+
+
+.header{
+    background: var(--2, #036C5E);
+}
+
+
+.header--content{
+    display: flex;
+    padding: 80px 60px;
+    align-items: center;
+    gap: 100px;
+}
+
+.header--content--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.text h1{
+    display: flex;
+    text-align: start;
+    color: var(--White, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 50px;
+    font-weight: 700;
+}
+.text p{
+    display: inline;
+    text-align: start;
+    color: var(--White, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.header--btn{
+    display: flex;
+    height: 50px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--1, #EAC632);
+    border: none;
+
+    color: var(--2, #036C5E);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header--content--image{
+   position: relative;
+}
+
+.greenbg img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.image--text h1{
+    position: absolute;
+    color: var(--2, #036C5E);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 80px;
+    font-weight: 900;
+    top: 125px;
+    right: 390px;
+}
+
+.image--text span{
+    position: absolute;
+    color: var(--White, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 50px;
+    font-weight: 500;
+    top: 200px;
+    right: 390px;
+}

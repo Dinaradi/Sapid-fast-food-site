@@ -1,0 +1,134 @@
+.delivery {
+  background-color: #eac632;
+  /* padding-bottom: 45.4%; */
+  /* position: relative; */
+}
+
+.delivery--content {
+  /* position: relative;/ */
+  /* position: absolute; */
+    display: flex;
+    width: 1440px;
+    padding: 80px 60px;
+    align-items: flex-end;
+    gap: 100px;
+}
+
+.deliverygreen {
+  /* position: absolute; */
+  display: none;
+}
+
+.content--text {
+  /* position: absolute; */
+  display: flex;
+    width: 837px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.content--text h1{
+    color: var(--White, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 50px;
+    font-weight: 700;
+    /* background-color: blue; */
+}
+
+.bike--img img {
+    display: flex;
+    padding-top: 7rem;
+  /* position: absolute; */
+  /* top: 40%; */
+  /* left: 198%; */
+}
+
+.delivery--address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.address--one{
+    display: flex;
+    padding: 30px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: flex-end;
+    /* gap: 30px; */
+    gap: 400px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    background: #1C786B;
+    backdrop-filter: blur(5px);
+}
+
+.address--one p{
+    display: flex;
+    align-items: flex-start;
+    color:#FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.address--two{
+    display: flex;
+    padding: 0px 30px 30px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+
+    border-radius: 5px;
+    background: #1C786B;
+    backdrop-filter: blur(10px);
+}
+
+.address{
+    display: flex;
+    padding: 30px 0px;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 400px;
+    align-self: stretch;
+}
+
+.address p {
+    color: var(--White, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.address--more{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.number,
+.gmail,
+.compass{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.number,
+.gmail,
+.compass p{
+    color: var(--White, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
